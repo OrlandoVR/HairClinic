@@ -67,6 +67,6 @@
     
 
     <?php require_once BASE_PATH . '/partials/footer.php'; ?>
-    <script src="<?= BASE_PATH ?>/js/home.js"></script>
+    <script src="<?= BASE_URL ?>/js/home.js"></script>
 </body>
 </html>

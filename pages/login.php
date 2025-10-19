@@ -25,7 +25,7 @@
                 <input type="text" name="loginPassword" id="loginPassword" placeholder="Password">
                 <a href="#" class="login-forgot-pass">Forgot Password?</a>
 
-                <a href="#">Create account</a>
+                <a href="<?= BASE_URL ?>/pages/register.php">Create account</a>
                 <input type="submit" value="Login">
             </form>
         </div>
