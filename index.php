@@ -65,7 +65,8 @@
         
     </main>
 
-    <?php require_once BASE_PATH . '/partials/footer.php'; ?>
+    <?php require_once BASE_PATH .'/partials/footer.php'; ?>
+
     <script src="<?= BASE_URL ?>/assets/js/carrousel.js"></script>
     
     
