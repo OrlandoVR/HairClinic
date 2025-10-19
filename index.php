@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__.'/config.php';
+    require_once __DIR__.'/config/paths.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/styles.css">
 
     
 
@@ -25,9 +25,9 @@
     <main>
         <div class="carousel">
             <div class="slides" id="slides">
-                <div class="slide"><img src="img/notice1.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="img/notice2.jpg" alt="Slide 2"></div>
-                <div class="slide"><img src="img/notice3.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="assets/img/notice1.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="assets/img/notice2.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="assets/img/notice3.jpg" alt="Slide 3"></div>
             </div>
 
             <button class="left-arrow" aria-label="left">
@@ -41,7 +41,7 @@
 
         <div class="container">
             <div class="info-container">
-                <img src="img/image1.png" alt="imagen1">
+                <img src="assets/img/image1.png" alt="imagen1">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Exercitationem pariatur quas sequi reprehenderit praesentium 
                     fugiat a excepturi voluptatibus aspernatur accusantium, saepe 
@@ -52,10 +52,10 @@
                     Exercitationem pariatur quas sequi reprehenderit praesentium 
                     fugiat a excepturi voluptatibus aspernatur accusantium, saepe 
                     iste quidem molestiae aperiam. Sit numquam at quas iste?</p>
-                    <img src="img/image2.png" alt="imagen1">
+                    <img src="assets/img/image2.png" alt="imagen1">
             </div>
             <div class="info-container">
-                <img src="img/image3.png" alt="imagen1">
+                <img src="assets/img/image3.png" alt="imagen1">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Exercitationem pariatur quas sequi reprehenderit praesentium 
                     fugiat a excepturi voluptatibus aspernatur accusantium, saepe 
@@ -66,7 +66,7 @@
     </main>
 
     <?php require_once BASE_PATH . '/partials/footer.php'; ?>
-
+    <script src="<?= BASE_URL ?>/assets/js/carrousel.js"></script>
     
     
 </body>

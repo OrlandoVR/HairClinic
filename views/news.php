@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . '/../config.php';
+    require_once __DIR__ . '/../config/paths.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
     <title>News</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/styles.css">
 
 </head>
 <body>
@@ -22,7 +22,7 @@
         <section class="news-container">
             <h2>NOTICIAS</h2>
             <div class="new">
-                <img src="<?= BASE_URL ?>/img/notice1.jpg" alt="noticia1">
+                <img src="<?= BASE_URL ?>/assets/img/notice1.jpg" alt="noticia1">
                 <div class="text-news">
                     <h3>Titulo</h3>
                     <p>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="new">
-                <img src="<?= BASE_URL ?>/img/notice2.jpg" alt="noticia2">
+                <img src="<?= BASE_URL ?>/assets/img/notice2.jpg" alt="noticia2">
                 <div class="text-news">
                     <h3>Titulo</h3>
                     <p>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="new">
-                <img src="<?= BASE_URL ?>/img/notice3.jpg" alt="noticia2">
+                <img src="<?= BASE_URL ?>/assets/img/notice3.jpg" alt="noticia2">
                 <div class="text-news">
                     <h3>Titulo</h3>
                     <p>

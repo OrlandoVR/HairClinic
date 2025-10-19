@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . '/../config.php';
+    require_once __DIR__ . '/../config/paths.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/styles.css">
 </head>
 <body>
     
@@ -36,7 +36,7 @@
                     </select>
                 </div>
 
-                <a href="<?= BASE_URL ?>/pages/login.php">Go to login</a>
+                <a href="<?= BASE_URL ?>/views/login.php">Go to login</a>
                 <input type="submit" value="Register">
             </form>
         </div>

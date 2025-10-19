@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . '/../config.php';
+    require_once __DIR__ . '/../config/paths.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/styles.css">
 </head>
 <body>
     
@@ -25,7 +25,7 @@
                 <input type="text" name="loginPassword" id="loginPassword" placeholder="Password">
                 <a href="#" class="login-forgot-pass">Forgot Password?</a>
 
-                <a href="<?= BASE_URL ?>/pages/register.php">Create account</a>
+                <a href="<?= BASE_URL ?>/views/register.php">Create account</a>
                 <input type="submit" value="Login">
             </form>
         </div>
